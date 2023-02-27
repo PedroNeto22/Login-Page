@@ -1,13 +1,13 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
-body{
+body {
   background: #6c99c3;
 }
-.container{
+.container {
   display: flex;
   flex-direction: column;
   border: 1px solid transparent;
@@ -18,54 +18,50 @@ body{
   background: #ffffff;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
 }
-#login-title{
+#login-title {
   font-size: 20px;
   padding: 0 200px 0 0;
 }
-.email{
+.email {
   margin-top: 30px;
   display: flex;
   flex-direction: column;
 }
-.email input{
+.email input {
   border: 1px solid #aaaaaa;
   border-radius: 5px;
   padding: 10px 10px;
   outline: 0;
 }
-.password{
+.password {
   margin-top: 20px;
   display: flex;
   flex-direction: column;
 }
-.password input{
+.password input {
   border: 1px solid #aaaaaa;
   border-radius: 5px;
   padding: 10px 10px;
   outline: 0;
 }
-.remenber-me{
+.remenber-me {
   display: flex;
   margin-top: 10px;
   gap: 10px;
   align-items: center;
 }
-.remenber-me input{
+.remenber-me input {
   appearance: none;
   width: 25px;
   height: 25px;
   border: 1px solid #ed5684;
   border-radius: 5px;
-
 }
-.remenber-me input:checked{
+.remenber-me input:checked {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0,0,256,256' width='20px' height='20px' fill-rule='nonzero'%3E%3Cg fill='%23ffffff' fill-rule='nonzero' stroke='none' stroke-width='1' stroke-linecap='butt' stroke-linejoin='miter' stroke-miterlimit='10' stroke-dasharray='' stroke-dashoffset='0' font-family='none' font-weight='none' font-size='none' text-anchor='none' style='mix-blend-mode: normal'%3E%3Cg transform='scale(10.66667,10.66667)'%3E%3Cpath d='M20.29297,5.29297l-11.29297,11.29297l-4.29297,-4.29297l-1.41406,1.41406l5.70703,5.70703l12.70703,-12.70703z'%3E%3C/path%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
   background-color: #ed5684;
   background-position: center;
-  
-
 }
-
 
 #login-button {
   margin-top: 20px;
@@ -78,43 +74,41 @@ body{
   outline: 0;
   cursor: pointer;
 }
-#login-button:hover{
+#login-button:hover {
   opacity: 0.8;
-  
 }
-#forgt-pass{
+#forgt-pass {
   margin-top: 5px;
   text-align: right;
 }
-#forgt-pass a{
+#forgt-pass a {
   text-decoration: none;
   color: black;
 }
 
-#forgt-pass a:hover{
+#forgt-pass a:hover {
   text-decoration: underline;
 }
-#or-text{
+#or-text {
   margin-top: 15px;
   margin-bottom: 15px;
   text-align: center;
   padding: 5px;
-  
 }
-#or-text span{
+#or-text span {
   opacity: 0.8;
   border: 1px solid #6b6b6b;
   border-radius: 5px;
   padding: 2px;
 }
-.social-logins{
-  gap:20px;
+.social-logins {
+  gap: 20px;
   display: flex;
   font-size: 25px;
   justify-content: center;
   align-items: center;
 }
-.social-logins a{
+.social-logins a {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -124,30 +118,26 @@ body{
   border-radius: 50%;
   padding: 5px;
 }
-.social-logins a:hover{
+.social-logins a:hover {
   background: rgba(0, 0, 0, 0.05);
 }
-.social-logins #google{
+.social-logins #google {
   color: red;
 }
-.social-logins #facebook{
-  border:2px solid blue;
+.social-logins #facebook {
+  border: 2px solid blue;
 }
-.social-logins #linkedin{
-  border:2px solid blue;
+.social-logins #linkedin {
+  border: 2px solid blue;
 }
-#already-user{
+#already-user {
   margin-top: 20px;
   text-align: center;
 }
-#already-user-link{
+#already-user-link {
   text-decoration: none;
   color: black;
 }
-#already-user-link:hover{
+#already-user-link:hover {
   text-decoration: underline;
 }
-
-
-
-
